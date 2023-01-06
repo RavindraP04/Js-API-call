@@ -5,9 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            width:100vw;
+            margin: 0px 20px 20px 20px;
+        }
+        #txtInput {
+            padding: 1rem;
+            margin-bottom: 20px;
+            width: 60vw;
+            display: block;
+            font-size: 16px;
+            height: 100px;
+        }
+        #text-output{
+            padding: 1rem;
+            margin-top: 20px;
+            width: 60vw;
+            height: 100px;
+            font-size: 16px;
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1 class="head">Translator</h1>
+    <textarea name="text-input" id="txtInput" cols="30" rows="10"></textarea>
+    <button id="btn-translate">Translate</button>
+    <div id="text-output"></div>
 </body>
 <script src="./app.js" type="text/javascript"></script>
 </html>
